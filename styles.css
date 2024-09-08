@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.inter-heading {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.home-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+    height: 90%;
+}
+
+.card {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 10px 0;
+    flex-direction: column;
+    background-color: azure;
+}
+/* Uber Button */
+.uber {
+    background-color: black;
+    color: white;
+    padding: 0 2rem;
+}
+.uber:hover {
+    opacity: 80%;
+}
+
+/* Amazon Button  */
+
+.amazon {
+    background-color: #FDD718;
+    border-radius: 2rem !important;
+    font-weight: 500;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.amazon:hover {
+    background-color: #edc915;
+}
+
+/* Github Button  */
+.github {
+    font-weight: 800;
+    background-color: #4d9950;
+    border-radius: 4px !important;
+    box-shadow: 5px 5px 10px rgb(179, 179, 179);
+    color: white;
+    padding: 0 1rem;
+}
+
+/* Bootstrap Button  */
+.bootstrap-get {
+    padding: 0 2rem;
+    border-radius: 4px !important;
+    background-color: #5F4293;
+    color: white;
+    font-weight: 500;
+}
+.bootstrap-download {
+    border-radius: 4px !important;
+    background-color: transparent;
+    border: 1px #5F4293 solid !important;
+    padding: 0 2rem;
+    color: #5F4293;
+    transition: background-color 0.3s ease;
+}
+.bootstrap-download:hover {
+    background-color: #5F4293;
+    color: white;
+}
+
+/* LinkedIn Button  */
+.li-card {
+    grid-column: span 2 / span 2;
+}
+.li-company {
+    border-radius: 2rem !important;
+    padding: 0 1.5rem;
+    background-color: #196DC5;
+    color: white;
+    transition: background-color 0.1s ease;
+}
+.li-company:hover {
+    background-color: #15569b;
+}
+.li-save {
+    border-radius: 2rem !important;
+    padding: 0 1.5rem;
+    background-color: transparent;
+    color: #196DC5;
+    border: 1px #196DC5 solid !important;
+    font-weight: 600;
+}
+.li-save:hover {
+    border-width: 2px !important;
+}
+
+.btn {
+    height: 2.6rem;
+    border-radius: 0;
+    border: 0;
+}
+.btn:hover {
+    cursor: pointer;
+}
