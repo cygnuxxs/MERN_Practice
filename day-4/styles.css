@@ -87,7 +87,7 @@
     border-radius: 4px !important;
     background-color: transparent;
     border: 1px #5F4293 solid !important;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     color: #5F4293;
     transition: background-color 0.3s ease;
 }
@@ -123,10 +123,31 @@
 }
 
 .btn {
-    height: 2.6rem;
+    padding: 10px;
     border-radius: 0;
     border: 0;
 }
 .btn:hover {
     cursor: pointer;
+}
+.twitter {
+    background-color: #1D9BF0;
+    color: white;
+    font-weight: 600;
+    padding: 10px 1rem;
+    border-radius: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+.twitter:hover {
+    background-color: #1c92e1;
+}
+
+.subscribe {
+    background-color: #FF0000;
+    color: white;
+    padding: 8px 15px;
+    transition: background-color 0.2s ease;
+}
+.subscribe:hover {
+    background-color: #dd0000;
 }
